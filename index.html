@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Tu Nombre</title>
+
+    <!-- CSS INCRUSTADO (todo en un solo archivo) -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background: #222;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KEvin Darley Perez MArtin</h1>
+    <p>Desarrollador Web Junior</p>
+</header>
+
+<nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#academico">Académico</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+    <a href="https://tublog.github.io" target="_blank">Bitácora</a>
+</nav>
+
+<section id="perfil">
+    <article>
+        <h2>Perfil Profesional</h2>
+        <p>Soy un desarrollador en formación enfocado en crear sitios web funcionales y bien estructurados usando HTML y CSS.</p>
+    </article>
+
+    <hr>
+
+    <article id="academico">
+        <h2>Información Académica</h2>
+        <p>Técnico / Tecnólogo en Desarrollo de Software.</p>
+    </article>
+
+    <hr>
+
+    <article id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <p>Proyectos académicos y personales utilizando HTML y CSS.</p>
+    </article>
+
+    <hr>
+
+    <article id="habilidades">
+        <h2>Competencias y Habilidades</h2>
+        <div>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>Git y GitHub</p>
+        </div>
+    </article>
+</section>
+
+<section id="contacto">
+    <article>
+        <h2>Contacto</h2>
+        <form>
+            <label>Nombre</label>
+            <input type="text" required>
+
+            <label>Correo</label>
+            <input type="email" required>
+
+            <label>Mensaje</label>
+            <textarea rows="5"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </article>
+</section>
+
+<footer>
+    <p>© 2025 - Tu Nombre</p>
+</footer>
+
+</body>
+</html>
